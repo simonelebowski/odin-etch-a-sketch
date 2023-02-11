@@ -2,6 +2,3 @@
 
 Some descriptions!
 
-## Bo
-
-bob
