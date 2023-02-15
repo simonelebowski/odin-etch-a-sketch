@@ -97,7 +97,4 @@ buttonDelete.addEventListener('click', function() {
 // -------------CREATE STANDARD GRID--------------------
 createGrid(16);
 
-
-const grid = document.querySelector('.grid-cell');
-
  
