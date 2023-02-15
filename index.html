@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&family=Schoolbell&display=swap" rel="stylesheet">
 </head>
 <body>
     
+    <main>
+        <div class="main-div">
+            <h1 class="title">etch-a-sketch</h1>
+            <div class="btn-div">
+                <button class="btn">New grid</button>
+                <button class="btn-delete">Delete</button>
+                <div class="check-div">
+                    <input class="checkbox" type="checkbox" value="Color">
+                    <label class="label" for="label"> Color</label><br>
+                    <input class="grey" type="checkbox" value="Grey">
+                    <label class="label" for="label"> Grey</label><br>
+                </div>
+            </div>
+            <div class="main-grid"></div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
 </body>
 </html>

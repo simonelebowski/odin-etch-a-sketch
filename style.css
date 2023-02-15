@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 62.5%;
+    font-family: 'Schoolbell';
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    font-family: inherit;
+    background-color: white;
+    font-size: 1.8rem;
+}
+
+button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.label {
+    font-size: 1.8rem;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 4rem;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.check-div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.main-grid {
+    display: grid;
+    width: 60rem;
+    height: 60rem;
+    margin: 0 auto;
+}
+
+.grids {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0);
+}
