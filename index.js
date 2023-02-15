@@ -94,7 +94,19 @@ buttonDelete.addEventListener('click', function() {
     grids[i].style.backgroundColor = 'white';
 }})
 
+checkbox.addEventListener('change', () => {
+  if (checkbox.checked) {
+    grey.checked = false;
+  }
+});
+
+grey.addEventListener('change', () => {
+  if (grey.checked) {
+    checkbox.checked = false;
+  }
+}); 
+
 // -------------CREATE STANDARD GRID--------------------
 createGrid(16);
 
- 
+
